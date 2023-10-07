@@ -3,7 +3,7 @@ async function enviarScript(scriptText){
 	main = document.querySelector("#main"),
 	textarea = main.querySelector(`div[contenteditable="true"]`)
 	
-	if(!textarea) throw new Error("Não há uma conversa aberta")
+	if(!textarea) throw new Error("There is no open conversation")
 	
 	for(const line of lines){
 		console.log(line)
@@ -24,9 +24,6 @@ async function enviarScript(scriptText){
 
 enviarScript(`
 BÍBLIA SAGRADA
-Tradução: João Ferreira de Almeida
-Edição Revista e Corrigida
- 	
 ANTIGO TESTAMENTO
 
 GÊNESIS
